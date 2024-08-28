@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f3f4f6;
+  color: #333;
+  line-height: 1.6;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 80vw;
+  margin: 20px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 28px;
+  color: #444;
+}
+
+.main {
+  flex: 1;
+}
+
+.converter {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.currency-selector,
+.units {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.currency-selector label,
+.units label {
+  font-weight: bold;
+  color: #555;
+}
+
+select,
+input[type="number"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.currency-selector button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.currency-selector button:hover {
+  background-color: #0056b3;
+}
+
+.converter-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.converter {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.compare-container {
+  flex: 1;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin-left: 20px;
+  display: none; /* Hidden by default */
+}
+
+.compare-container h2 {
+  margin-bottom: 10px;
+}
+
+#compare-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#compare-list li {
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+#compare-button,
+#clear-list-button {
+  margin-top: 10px;
+  padding: 10px;
+  width: 50%;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#compare-button {
+  background-color: #007bff;
+  color: white;
+}
+
+#clear-list-button {
+  background-color: #dc3545;
+  color: white;
+}
+
+.results-container {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  min-height: 50px;
+  text-align: center;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: column; 
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #777;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .container {
+    padding: 15px;
+  }
+
+  header h1 {
+    font-size: 24px;
+  }
+
+  select,
+  input[type="number"] {
+    font-size: 14px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 8px;
+  }
+}

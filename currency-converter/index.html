@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Main Content Section -->
+      <main>
+        <div class="content">
+          <header>
+            <h1>Currency Converter</h1>
+          </header>
+          <div class="converter">
+            <div class="currency-selector">
+              <label for="source-currency">Source Currency:</label>
+              <select id="source-currency">
+                <option value="" disabled selected>
+                  Choose Source Currency
+                </option>
+              </select>
+              <button type="submit" class="add-to-list-button">
+                Add to List
+              </button>
+              <label for="target-currency">Target Currency:</label>
+              <select id="target-currency">
+                <option value="" disabled selected>
+                  Choose Target Currency
+                </option>
+              </select>
+            </div>
+            <div class="units">
+              <label for="units-label">Units:</label>
+              <input
+                type="number"
+                id="amount"
+                placeholder="Enter amount"
+                value="1"
+              />
+            </div>
+            <div class="buttons">
+              <button id="display-button">Display</button>
+              <button id="clear-button">Clear</button>
+            </div>
+            <div class="results-container">
+              <!--display results-->
+            </div>
+          </div>
+        </div>
+      </main>
+      <div class="compare-container">
+        <h2>Compare Countries</h2>
+        <ul id="compare-list"></ul>
+        <button id="compare-button" style="display: none">Compare</button>
+        <button id="clear-list-button" style="display: none">Clear</button>
+      </div>
+    </div>
+  </body>
+  <script src="app.js" defer></script>
+</html>

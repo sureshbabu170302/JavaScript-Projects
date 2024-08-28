@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/styles/app.css">
+    <script src="assets/scripts/app.js" defer></script>
+</head>
+<body>
+    <div class="game-container">
+        <h1>Rock Paper Scissors Game</h1>
+        <button id="start-game-btn">Start Game!</button>
+    </div>
+
+    <div id="game-modal" class="modal">
+        <div class="modal-content">
+            <span id="close-modal-btn" class="close">&times;</span>
+            <h2>Choose Your Weapon</h2>
+            <button class="choice-btn" data-choice="ROCK">Rock</button>
+            <button class="choice-btn" data-choice="PAPER">Paper</button>
+            <button class="choice-btn" data-choice="SCISSORS">Scissors</button>
+        </div>
+    </div>
+</body>
+</html>
