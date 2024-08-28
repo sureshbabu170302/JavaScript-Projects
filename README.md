@@ -3,9 +3,12 @@
 This repository contains a collection of JavaScript projects that showcase various functionalities, including geolocation tracking, currency conversion, and more. Each project demonstrates a specific use case, using modern JavaScript, APIs, and UI/UX practices.
 
 ## Table of Contents
-1. [SharePlace - Geolocation and Mapping Application](#shareplace---geolocation-and-mapping-application)
+1. [SharePlace - Geolocation and Mapping Application](#[shareplace---geolocation-and-mapping-application](https://github.com/sureshbabu170302/JavaScript-Projects/tree/main/JSON-CRUD-application))
 2. [Currency Converter and Country Comparison Tool](#currency-converter-and-country-comparison-tool)
-3. [More Projects (Add as needed)](#more-projects-add-as-needed)
+3. [JSON Crud Application](#currency-converter-and-country-comparison-tool)
+4. [Currency Converter and Country Comparison Tool](#currency-converter-and-country-comparison-tool)
+5. [Currency Converter and Country Comparison Tool](#currency-converter-and-country-comparison-tool)
+6. 
 
 ---
 
